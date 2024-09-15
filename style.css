@@ -44,6 +44,8 @@ body {
 #calc-buttons-wrapper {
     display: flex;
     padding: 20px;
+    justify-content: space-evenly;
+    gap: 20px;
 }
 
 #calc-buttons-nums {
@@ -61,6 +63,7 @@ body {
     flex-direction: column;
     height: 256px;
     width: 64px;
+    border: solid 1px;
 }
 
 .calc-button-elem {
